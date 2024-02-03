@@ -2,8 +2,10 @@
 
 body{
     background-color: lightblue;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    max-width: 1000px;
+    
 
 }
 header, footer {
@@ -19,7 +21,7 @@ header, footer {
 .nav_link {
     padding: 20px;
     color: black;
-    font-size: 1.3cm;
+    font-size: 1cm;
 }
 
 nav {
@@ -34,6 +36,7 @@ nav a {
 nav a:hover {
     color: navy;
 }
+
 p {
     text-align: center;
 }
