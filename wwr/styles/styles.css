@@ -115,13 +115,15 @@ nav a:hover {
 }
 
 .book {
-    background-color: #108064;
     text-decoration: none;
+    color: white;
+
 }
 
 .join {
-    background-color: #4D97C3;
+    background-color: white;
     text-decoration: none;
+    color: black;
 }
 
 .book, .join {
@@ -131,10 +133,13 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.book:hover, .join:hover {
-    background-color: #FEFCFB;
+.book:hover {
+    background-color: black;
 }
 
+.join:hover {
+    text-decoration: underline;
+}
 .msg {
     background-color: #4D97C3;
     line-height: 1.5em;
