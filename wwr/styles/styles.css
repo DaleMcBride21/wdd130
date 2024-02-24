@@ -152,7 +152,7 @@ nav a:hover {
 
 .home-grid {
     display: grid;
-    grid-template-columns: reapeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 h2 {
