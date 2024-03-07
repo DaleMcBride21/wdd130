@@ -38,6 +38,10 @@ nav a {
     margin-top: 100px;
 }
 
+#hero-img, .icon {
+    width: 100%;
+}
+
 .button-box {
     text-align: center;
 }
@@ -229,7 +233,9 @@ footer, .social img {
 
 /* RIVERS PAGE CSS */
 
-.rivers_grid {
+.river-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
