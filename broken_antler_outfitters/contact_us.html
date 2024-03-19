@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="homepage.html" id="logo_link">
+                    <img class="logo" src="images/broken_antler_outfitter_logo.png" alt="broken-antler-outfitters-logo">
+                </a>
+                <a class="nav_link" href="homepage.html">Home</a>
+                <a class="nav_link" href="about_us.html">About Us</a>
+                <a class="nav_link" href="contact_us.html">Contact Us</a>
+            </nav> 
+        </header>
+        <main>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                      <label for="mail">Email:</label>
+                      <input type="email" id="mail" name="user_email" required/>
+                    </li>
+                    <li>
+                      <label for="msg">Message:</label>
+                      <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit</button>
+                      </li>
+                  </ul>
+
+            </form>
+        </main>
+        <footer>
+            <div>
+                <h3>Social Media Links</h3>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook_broken_antler.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter_broken_antler.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram_broken_antler.png" alt="instagram icon">
+            </div>
+            <div>
+                <h3><a href="contact_us.html">Send Us a Message</a></h3>
+                <p><b>Phone Number:</b> 313-222-2222</p>
+                <p><b>Email:</b> broken_antler_outfitters@gmail.com</p>
+            </div>
+            <div>
+                <h3>Hunt Area Information</h3>
+                <p><b><a href="https://weather.com/weather/tenday/l/Jackson+WY?canonicalCityId=05bb86214741d04dad917f6132f8a325295e064111c8f75439491397a36cdbc6" target="_blank">Weather</a></b></p>
+                <p><b><a href="https://www.google.com/maps/place/Moran,+WY+83013/@43.833476,-110.3737073,12z/data=!4m6!3m5!1s0x53525c81015399a9:0x1394ba66212642b!8m2!3d43.8416798!4d-110.508053!16s%2Fm%2F043r78q?entry=ttu" target="_blank">Google Map</a></b></p>
+                <p><b><a href="https://wgfd.wyo.gov/regulations" target="_blank">Regulations</a></b></p>
+                <p><b><a href="site-plan.html" target="_blank">Site Plan</a></b></p>
+            </div>
+        </footer> 
+    </body>
+</html>
