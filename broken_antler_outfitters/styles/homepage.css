@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Questrial&display=swap');
+
+/* Body */
+body {
+    background-color: white;
+    background-image: url("../images/andrew-meehan-CsnKAl5szLQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* Header */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #00335B;
+    border-radius: 5px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_link {
+    font-family: 'Oswald';
+}
+
+nav a:hover {
+    background-color: #43555F;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    flex: 1;
+    height: 100px;
+    font-size: 20px;
+}
+
+.logo {
+    max-width: 125px;
+    border-radius: 5px;
+}
+
+#logo_link {
+    max-width: 150px;
+}
+
+/* Main */
+h1 {
+    font-size: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.hunt_info {
+    padding: 50px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 150px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hunt-info-box {
+    text-align: center;
+    max-width: 300px;
+    background-color: #ADC9CC;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hunt-info-box img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+
+#mule_deer_changes {
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+#whitetail_changes {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.additional-info {
+    background-color: #ADC9CC;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #00335B;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 100px;
+}
+
+.footer-boxes {
+    color: white;
+    text-align: center;
+    border: dotted;
+}
+
+footer h3 {
+    font-size: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: #ADC9CC;
+}
+
+.footer_text_color {
+    color: #ADC9CC;
+}
